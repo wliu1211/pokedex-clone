@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px){
+    .header .search-text{
+        margin: 30px 0 10px;
+    }
+    #pokemon-cards-section .pokemon-card{
+        width: 238px;
+    }
+
+    footer .primary-container{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .navbar .nav-list{
+        display: none;
+    }
+    .navbar .burger-icon{
+        display: block;
+    }
+    .header{
+        padding: 10px;
+    }
+    .sorting .sort-results {
+        width: 200px;
+        padding: 10px;
+    }
+
+    #pokemon-cards-section .pokemon-card{
+        width: 350px;
+    }
+    #pokemon-cards-section .pokemon-card .empty-star{
+        font-size: 1.5rem;
+    }
+    .navbar .responsive-nav{
+        padding: 0.5rem;
+        width: 200px;
+        background-color: white;
+        display: none;
+    
+    }
+    footer .primary-container{
+        display: block;
+    }
+    footer .footer-divider{
+        height: 5px;
+        width: 300px;
+        margin: 8px 0;
+    }
+}
+@media only screen and (min-width: 480px){
+    .navbar .responsive-nav{
+
+        display: none;
+    
+    }
+}
